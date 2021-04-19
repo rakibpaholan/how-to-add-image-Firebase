@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381869529867",
+    "project_id": "store-retreve-image-form-firbs",
+    "storage_bucket": "store-retreve-image-form-firbs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381869529867:android:6a2ddb329d7ac24211e00e",
+        "android_client_info": {
+          "package_name": "com.example.howtostoreimageandretreveimageformfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381869529867-8qoria8iafn58uek0m9jbt6hbkrrt0ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlGP7Sf_PkjYUM8wflxVb-ozVEKBY7jmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381869529867-8qoria8iafn58uek0m9jbt6hbkrrt0ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

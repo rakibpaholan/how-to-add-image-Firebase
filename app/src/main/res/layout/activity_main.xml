@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:id="@+id/chose_image"
+        android:layout_weight="0.25"
+        android:text="Choose image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <EditText
+        android:layout_weight="0.25"
+        android:id="@+id/image_name_id"
+        android:hint="give a name of image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <ImageView
+        android:layout_weight="2"
+        android:id="@+id/image_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_weight="0.16"
+        android:id="@+id/progressBar_id"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"/>
+    <Button
+        android:text="Save"
+        android:textAllCaps="false"
+        android:layout_weight="0.17"
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <Button
+        android:text="Show Data"
+        android:textAllCaps="false"
+        android:layout_weight="0.17"
+        android:id="@+id/show_all_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+</LinearLayout>
